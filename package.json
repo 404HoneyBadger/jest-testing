@@ -1,0 +1,27 @@
+{
+  "name": "day-33-jest-activity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack app.js --mosde development --watch",
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["html"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/404HoneyBadger/jest-testing.git"
+  },
+  "author": "Natalee Nieves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/404HoneyBadger/jest-testing/issues"
+  },
+  "homepage": "https://github.com/404HoneyBadger/jest-testing#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
